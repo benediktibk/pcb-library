@@ -4,6 +4,12 @@ $CMP 2SK3747-1E
 F http://www.onsemi.com/pub/Collateral/2SK3747-D.PDF
 $ENDCMP
 #
+$CMP 2phase_inductor
+D Inductor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
 $CMP 744839010400
 D 3 x 10.5 mH Wurth Elektronik WE-TPB Common Mode Choke
 F https://katalog.we-online.de/pbs/datasheet/744839010400.pdf
