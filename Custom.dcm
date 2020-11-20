@@ -15,6 +15,12 @@ D 3 x 10.5 mH Wurth Elektronik WE-TPB Common Mode Choke
 F https://katalog.we-online.de/pbs/datasheet/744839010400.pdf
 $ENDCMP
 #
+$CMP Arduino_Micro_Socket
+D Socket for Arduino Micro
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-micro
+$ENDCMP
+#
 $CMP CES-102-01-T-S
 D 2 Position, .100&quot; Closed Entry Low Profile Socket Strip
 F http://uk.rs-online.com/web/p/products/7666604P
