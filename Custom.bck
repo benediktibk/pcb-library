@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N2222
+D 1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/PN2222-D.PDF
+$ENDCMP
+#
+$CMP 2SAR554P
+D 100mA Ic, 45V Vce, Epitaxial Silicon PNP Transistor, TO-92
+K Epitaxial Silicon PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BC307-D.PDF
+$ENDCMP
+#
 $CMP 2SK3747-1E
 F http://www.onsemi.com/pub/Collateral/2SK3747-D.PDF
 $ENDCMP
@@ -13,6 +25,12 @@ $ENDCMP
 $CMP 744839010400
 D 3 x 10.5 mH Wurth Elektronik WE-TPB Common Mode Choke
 F https://katalog.we-online.de/pbs/datasheet/744839010400.pdf
+$ENDCMP
+#
+$CMP Arduino_Micro_Socket
+D Socket for Arduino Micro
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-micro
 $ENDCMP
 #
 $CMP CES-102-01-T-S
@@ -38,6 +56,12 @@ $ENDCMP
 $CMP NE555DR
 D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP S8550
+D 0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92
+K S8550 PNP Low Voltage High Current Transistor
+F http://www.unisonic.com.tw/datasheet/S8550.pdf
 $ENDCMP
 #
 $CMP UVZ1H103MRD
